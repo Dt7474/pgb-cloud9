@@ -1,0 +1,20 @@
+<link rel="icon" type="image/png" href="crome.png" sizes="32x32">
+<title>T3A03-JavaScript-Drae</title> 
+<h1 align=center>JavaScript by Drae</h1> 
+ 
+<textarea id="text1">Type Right Here</textarea>
+        <br>
+        <input type=button value="Click here" onclick="{
+        document.getElementById('out1').innerHTML = document.getElementById('text1').value
+        }">
+        <br>
+        <div id="out1">Your output is here</div>
+<br>
+<div id="div2">
+        <input type=button value="On" id="button2" onclick="{
+        var elem = document.getElementById(&#34;button2&#34;);
+        if (elem.value==&#34;On&#34;) elem.value = &#34;Off&#34;;
+        else elem.value = &#34;On&#34;;
+        
+        }">
+        </div>
